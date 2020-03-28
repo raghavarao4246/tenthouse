@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>customer-log in</title>
+		<style>
+			.blank_row
+			{
+				height: 10px !important;
+				
+			}
+		</style>
+	</head>
+	
+	<body bgcolor="green">
+	<form action="customer_login.jsp">
+		<h1 style="color:white" align="center">Tent House:customer</h1>
+		<table align="center">
+			<tr>
+				<td style="color:white;"><label>Phone</label></td>
+				<td><input type="text" name="phone_no" id="phone_no" maxlength="10" size="15" style="font-size:13pt; height: 30px; width:200px;" autocomplete="on"></td>
+			</tr>
+			
+			<tr class="blank_row">
+				<td colspan="3"></td>
+			</tr>
+			
+			<tr>
+				<td style="color:white;"><label>Password</label></td>
+				<td><input type="password" name="pin" id="pin" color="white" size="15" style="font-size:13pt; height: 30px; width:200px;"></td>
+			</tr>
+			
+			<tr class="blank_row">
+				<td colspan="3"></td>
+			</tr>
+			
+			<tr>
+				<td><button id="login">Login</button></td>
+				<td align=" right"><a href="forgot_password.html" target="_blank"><b style=" color:white ">Forgot Password?</b></a></td>
+			</tr>
+			
+			<tr class="blank_row">
+				<td colspan="3"></td>
+			</tr>
+			
+			<tr>
+				<td colspan='3' align="center"><a href="cust_signin.html" target="_blank"><b style=" color:white ">new account</b></a></td>
+			</tr>
+			
+		</table>
+	</form>
+	</body>
+</html>

@@ -1,0 +1,105 @@
+<html>
+	<head>
+		<title>customer-sign up</title>
+		<style>
+			.blank_row
+			{
+				height: 10px !important;
+				background-color: #FFFFFF;
+			}
+			h1{display:inline;}
+		</style>
+	</head>
+	
+	<body>
+		<form action="cust_signin.jsp">
+			<table align="center">
+			
+				<tr>
+					<td><h1>Create a new customer account</h1></td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="firstname" id="fn" placeholder="firstname" size="15" style="font-size:13pt; height: 30px; width:200px;" autocomplete="on">
+						<input type="text" name="secondname" id="sn" placeholder="secondname" size="15" style="font-size:13pt; height: 30px; width:200px;" autocomplete="on">
+					</td>
+				</tr>
+				
+				<tr class="blank_row">
+					<td colspan="3"></td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="phonenumber" id="fn" placeholder="Phone number" size="36" style="font-size:13pt; height: 30px; width:405px;" autocomplete="on"></td>
+				</tr>
+				
+				<tr class="blank_row">
+					<td colspan="3"></td>
+				</tr>
+				
+				<tr>
+					<td><input type="password" name="pin" id="pin" placeholder="new password" size="36" style="font-size:13pt; height: 30px; width:405px;"></td>
+				</tr>
+				
+				<tr class="blank_row">
+					<td colspan="3"></td>
+				</tr>
+				
+				<tr>
+					<td><input type="email" name="email" id="email" placeholder="email address" size="36" style="font-size:13pt; height: 30px; width:405px;" autocomplete="on"></td>
+				</tr>
+				
+				<tr class="blank_row">
+					<td colspan="3"></td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="location" id="location" placeholder="location e.g:your village or town name" size="36" style="font-size:13pt; height: 30px; width:405px;" autocomplete="on"></td>
+				</tr>
+				
+				<tr class="blank_row">
+					<td colspan="3"></td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="address" id="address" placeholder="enter your house address" size="36" style="font-size:10pt; height: 30px; width:405px;" autocomplete="on"></td>
+				</tr>
+				
+				<tr class="blank_row">
+					<td colspan="3"></td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="radio" name="gender" id="male" value="m"><font size="5">male</font>
+                                                <input type="radio" name="gender" id="female" value="f"><font size="5">female</font>
+					</td>
+				</tr>
+				
+				<tr class="blank_row">
+					<td colspan="3"></td>
+				</tr>
+				
+				<tr>
+					<td>
+						<p>
+							By clicking Sign Up, you agree to our Terms,<br>  
+							You may receive SMS notifications from us<br>
+							and can opt out at any time.
+						</p>			
+					</td>
+				</tr>
+				
+				<tr class="blank_row">
+					<td colspan="3"></td>
+				</tr>
+				
+				<tr>
+					<td><button>SignUp</button></td>
+				</tr>
+				
+			</table>
+		</form>
+	</body>
+
+</html>
